@@ -1,0 +1,312 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de">
+  <head>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+    <meta name="robots" content="noindex,nofollow" />
+    <link rel="shortcut icon" type="image/x-icon" href="/ss2019/AlgoDat/websvn/templates/ufcd/images/favicon.ico" />
+    <link type="text/css" href="/ss2019/AlgoDat/websvn/templates/ufcd/uni-freiburg.css" rel="stylesheet" media="screen" />
+    <link type="text/css" href="/ss2019/AlgoDat/websvn/templates/ufcd/stylesheet.css" rel="stylesheet" media="screen" />
+    <!--[if gte IE 5.5000]>
+    <script type="text/javascript" src="/ss2019/AlgoDat/websvn/templates/ufcd/png.js"></script>
+    <style type="text/css" media="screen">
+    tbody tr td { padding:1px 0 }
+    #wrap h2 { padding:10px 5px 0 5px; margin-bottom:-8px }
+    </style>
+    <![endif]-->
+    <title>
+       Daphne &bull; SVN
+          - svn
+               - Revision 7784
+            - /ds411/blatt-10/example.graph
+    </title>
+    <script type="text/javascript">
+  //<![CDATA[
+       function getPath()
+       {
+         return '/ss2019/AlgoDat/websvn';
+       }
+
+       function checkCB(chBox)
+       {
+          count = 0
+          first = null
+          f = chBox.form
+          for (i = 0 ; i < f.elements.length ; i++)
+          if (f.elements[i].type == 'checkbox' && f.elements[i].checked)
+          {
+             if (first == null && f.elements[i] != chBox)
+                first = f.elements[i]
+             count += 1
+          }
+
+          if (count > 2)
+          {
+             first.checked = false
+             count -= 1
+          }
+       }
+  //]]>
+    </script>
+  </head>
+  <body>
+    <div class="left">
+      <div id="greyBar"></div>
+      <div class="portlet portletNavigationTree">
+        <ul class="main">
+          <li>
+            <a href="/logout/" accesskey="x" class="logout">Abmelden [ ds411 ]</a>
+          </li>
+          <li>
+            <a class="home" href="/">Daphne</a>
+          </li>
+          <li>
+            <a href="/forum/" class="forum">Forum</a>
+          </li>
+        </ul>
+      </div>
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de">
+<body>
+  
+  <div class="portlet portletNavigationTree">
+    <ul class="navTreeLevel0">
+      
+      <li class=" ">
+        <a class="" href="/ws2122/">Wintersemester 2021/2022</a>
+        
+      </li>
+      
+      <li class=" ">
+        <a class="" href="/ss2021/">Sommersemester 2021</a>
+        
+      </li>
+      
+      <li class=" ">
+        <a class="" href="/ws2021/">Wintersemester 2020/2021</a>
+        
+      </li>
+      
+      <li class=" ">
+        <a class="" href="/ss2020/">Sommersemester 2020</a>
+        
+      </li>
+      
+      <li class=" ">
+        <a class="" href="/ws1920/">Wintersemester 2019/2020</a>
+        
+      </li>
+      
+      <li class=" navTreeItemInPath">
+        <a class=" navTreeItemInPath" href="/ss2019/">Sommersemester 2019</a>
+        
+        
+        <ul class="navTreeLevel1">
+          
+          <li class=" navTreeItemInPath">
+          <a class=" navTreeItemInPath navTreeCurrentItem" href="/ss2019/AlgoDat/">Algorithmen und Datenstrukturen</a>
+          
+            <ul class="navTreeLevel2">
+              
+              <li class="">
+                <a class="" href="https://daphne.informatik.uni-freiburg.de/forum/viewforum.php?f=919">Forum</a>
+              </li>
+              
+              <li class="navTreeLastItem">
+                <a class="" href="/ss2019/AlgoDat/svn/">Subversion</a>
+              </li>
+              
+            </ul>
+          
+          </li>
+          
+          <li class="navTreeLastItem ">
+          <a class="" href="/ss2019/ProgrammierenC/">Programmieren in C</a>
+          
+          </li>
+          
+        </ul>
+        
+        
+      </li>
+      
+      <li class=" ">
+        <a class="" href="/ws1819/">Wintersemester 2018/2019</a>
+        
+      </li>
+      
+      <li class=" ">
+        <a class="" href="/ss2018/">Sommersemester 2018</a>
+        
+      </li>
+      
+      <li class=" ">
+        <a class="" href="/ws1718/">Wintersemester 2017/2018</a>
+        
+      </li>
+      
+      <li class=" ">
+        <a class="" href="/ss2017/">Sommersemester 2017</a>
+        
+      </li>
+      
+      <li class=" ">
+        <a class="" href="/ws1617/">Wintersemester 2016/2017</a>
+        
+      </li>
+      
+      <li class=" ">
+        <a class="" href="/ss2016/">Sommersemester 2016</a>
+        
+      </li>
+      
+      <li class=" ">
+        <a class="" href="/ws1516/">Wintersemester 2015/2016</a>
+        
+      </li>
+      
+      <li class=" ">
+        <a class="" href="/ss2015/">Sommersemester 2015</a>
+        
+      </li>
+      
+      <li class=" ">
+        <a class="" href="/ws1415/">Wintersemester 2014/2015</a>
+        
+      </li>
+      
+      <li class=" ">
+        <a class="" href="/ss2014/">Sommersemester 2014</a>
+        
+      </li>
+      
+      <li class=" ">
+        <a class="" href="/ws1314/">Wintersemester 2013/2014</a>
+        
+      </li>
+      
+      <li class=" ">
+        <a class="" href="/ss2013/">Sommersemester 2013</a>
+        
+      </li>
+      
+      <li class=" ">
+        <a class="" href="/ws1213/">Wintersemester 2012/2013</a>
+        
+      </li>
+      
+      <li class=" ">
+        <a class="" href="/ss2012/">Sommersemester 2012</a>
+        
+      </li>
+      
+      <li class=" ">
+        <a class="" href="/ws1112/">Wintersemester 2011/2012</a>
+        
+      </li>
+      
+      <li class=" ">
+        <a class="" href="/ss2011/">Sommersemester 2011</a>
+        
+      </li>
+      
+      <li class=" ">
+        <a class="" href="/ws1011/">Wintersemester 2010/2011</a>
+        
+      </li>
+      
+      <li class="navTreeLastItem ">
+        <a class="" href="/ss2010/">Sommersemester 2010</a>
+        
+      </li>
+      
+    </ul>
+  </div>
+  
+  </body>
+</html>
+    </div>
+    <div id="logo">
+      <a href="http://www.uni-freiburg.de/"><img src="/ss2019/AlgoDat/websvn/templates/ufcd/unilogo-200x66.png" width="66" height="200" alt="Uni Freiburg" /></a>
+    </div>
+    <div id="main">
+      <div id="header">
+        <div class="left">
+          
+          <form method="get" action="" id="language"><select name="language" onchange="javascript:this.form.submit();"><option value="ca">Catal&agrave;-Valenci&agrave; - Catalan</option><option value="zh-CN">&#20013;&#25991; - Chinese (Simplified)</option><option value="zh-TW">&#20013;&#25991; - Chinese (Traditional)</option><option value="cs">&#268;esky - Czech</option><option value="da">Dansk - Danish</option><option value="nl">Nederlands - Dutch</option><option value="en">English - English</option><option value="fi">Suomi - Finnish</option><option value="fr">Fran&ccedil;ais - French</option><option value="de" selected="selected">Deutsch - German</option><option value="he-IL">&#1506;&#1489;&#1512;&#1497;&#1514; - Hebrew</option><option value="hin">&#2361;&#2367;&#2306;&#2342;&#2368; - Hindi</option><option value="hu">Magyar - Hungarian</option><option value="id">Bahasa Indonesia - Indonesian</option><option value="it">Italiano - Italian</option><option value="ja">&#26085;&#26412;&#35486; - Japanese</option><option value="ko">&#54620;&#44397;&#50612; - Korean</option><option value="mk">&#1052;&#1072;&#1082;&#1077;&#1076;&#1086;&#1085;&#1089;&#1082;&#1080; - Macedonian</option><option value="mr">&#2350;&#2352;&#2366;&#2336;&#2368; - Marathi</option><option value="no">Norsk - Norwegian</option><option value="pl">Polski - Polish</option><option value="pt">Portugu&ecirc;s - Portuguese</option><option value="pt-BR">Portugu&ecirc;s - Portuguese (Brazil)</option><option value="ru">&#1056;&#1091;&#1089;&#1089;&#1082;&#1080;&#1081; - Russian</option><option value="sk">Sloven&#269;ina - Slovak</option><option value="sl">Sloven&#353;&#269;ina - Slovenian</option><option value="es">Espa&ntilde;ol - Spanish</option><option value="sv">Svenska - Swedish</option><option value="tr">T&uuml;rk&ccedil;e - Turkish</option><option value="uk">&#1059;&#1082;&#1088;&#1072;&#1111;&#1085;&#1089;&#1100;&#1082;&#1072; - Ukrainian</option><option value="uz">O&euml;zbekcha - Uzbek</option></select><noscript><input type="submit" value="Los" /></noscript></form>
+        </div>
+        <a id="daphne-link" href="/ss2019/AlgoDat/?" title="Subversion-Projekte">Daphne &bull; SVN</a>
+        <a id="uni-link" title="Albert-Ludwigs-Universit&auml;t Freiburg" href="http://www.uni-freiburg.de/">Albert-Ludwigs-Universit&auml;t Freiburg</a>
+        <div id="sub-logo">
+          <a href="/"><img src="/ss2019/AlgoDat/websvn/templates/ufcd/sub-logo.gif" width="197" height="116" alt="Daphne" /></a>
+        </div>
+      </div>
+      <div id="redBar">
+        <img src="/ss2019/AlgoDat/websvn/templates/ufcd/red-bar-17x4.gif" width="17" height="4" alt="Red-Bar" />
+      </div>
+      <div id="breadcrumb">
+        <ul>
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de">
+  <body>
+
+<li>
+  Sie sind hier<span>:</span>
+</li>
+
+<li><a href="/">Daphne</a> <span>&rsaquo;</span> </li>
+
+<li><a href="/ss2019/">Sommersemester 2019</a> <span>&rsaquo;</span> </li>
+
+<li><a href="/ss2019/AlgoDat/">Algorithmen und Datenstrukturen</a> <span>&rsaquo;</span> </li>
+
+<li><a href="/ss2019/AlgoDat/svn/">Subversion</a></li>
+
+
+  </body>
+</html>
+        </ul>
+        <ul class="right">
+          <li>&nbsp;</li>
+        </ul>
+      </div>
+      <div id="content">
+        <div>
+    <div id="select">
+    </div>
+  <h2 id="pathlinks"><a href="/ss2019/AlgoDat/svn/?" class="root"><span>(root)</span></a>/<a href="/ss2019/AlgoDat/svn/ds411/?#">ds411</a>/<a href="/ss2019/AlgoDat/svn/ds411/blatt-10/?#">blatt-10</a>/<span class="file">example.graph</span> - Revision 7784</h2>
+  <div id="revjump"><form method="get" action="" id="revision">Revision <input type="text" size="5" name="rev" placeholder="HEAD" /><span class="submit"><input type="submit" value="Los" /></span></form></div>
+  <p>
+    <span class="blame"><a href="/ss2019/AlgoDat/svn/ds411/blatt-10/example.graph?op=blame&amp;rev=7784">Blame</a></span> &#124;
+    <span class="changes"><a href="/ss2019/AlgoDat/svn/ds411/blatt-10/example.graph?op=revision&amp;rev=7784">Letzte Änderung</a></span> &#124;
+    <span class="log"><a href="/ss2019/AlgoDat/svn/ds411/blatt-10/example.graph?op=log&amp;rev=7784">Log anzeigen</a></span>
+  </p>
+  <div class="listing">
+<pre><code>4
+</code><code>5
+</code><code>0    0
+</code><code>0    0
+</code><code>0    0
+</code><code>0    0
+</code><code>0    3   3
+</code><code>1   0    1
+</code><code>1   2   -2
+</code><code>2   3   2
+</code><code>3   2   5
+</code><code></code></pre>  </div>
+        </div>
+        <span style="float:left">Powered by WebSVN 2.3.3 und <a href="http://subversion.tigris.org">Subversion</a> 1.9.5</span>
+        <br />
+      </div>
+      <div id="footer">
+        <ul class="left">
+          <li><a href="/imprint/">Impressum</a></li>
+        </ul>
+        <ul class="right">
+          <li><a href="http://ad.informatik.uni-freiburg.de/">&copy; 2010 - 2022 Universit&auml;t Freiburg, IIF, AD</a></li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>

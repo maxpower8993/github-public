@@ -1,0 +1,7 @@
+Hi! =)
+
+Anbei der Code meiner Thesis "CHSH-Ungleichung in Neuronalen Netzwerken" aus der theoretischen Physik.
+Der Code könnte deutlich schöner sein, jedoch war das im Rahmen der Thesis zeitlich nur schwer mit den
+Beweisführungen vereinbar.
+
+Sorry!

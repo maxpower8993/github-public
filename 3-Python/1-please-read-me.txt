@@ -1,0 +1,5 @@
+Hi! =)
+
+Anbei ein Codebeispiel in Python. Der Code ist im Rahmen des gewöhnlichen wöchentlichen Übungsbetriebes entstanden.
+Hier wurde sehr viel mehr Wert auf Struktur gelegt, als das im Thesis-Code der Fall war.
+

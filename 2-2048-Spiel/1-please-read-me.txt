@@ -1,0 +1,4 @@
+Hi! =)
+
+Anbei der Code eines Programmierprojektes aus dem Informatikstudium. Aufgabe war es ein 2048-Spiel
+möglichst sauber und effizient zu programmieren.
