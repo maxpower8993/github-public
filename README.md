@@ -1,1 +1,1 @@
-# Für mylantech-Interview
+# Code Beispiele / code examples
